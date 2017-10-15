@@ -9,7 +9,7 @@ Command line interface for Hangouts with all messages encrypted using PGP.
 ##### Installation
 git clone https://github.com/ammgws/hangouts_pgp.git
 cd hangouts_pgp
-pip install -r requirements.txt  
+pip install -r requirements.txt
 
 ##### Before Use
 1. Go to [Google APIs](https://console.developers.google.com/apis/) and generate secret client ID/password.
@@ -17,5 +17,12 @@ pip install -r requirements.txt
 
 ##### Usage
 ```
-python hangouts_pgp.py
+Usage: hangouts_pgp.py [OPTIONS]
+
+  TODO
+
+Options:
+  --config-path PATH  Path to directory containing config file. Defaults to XDG config dir.
+  --cache-path PATH   Path to directory to store logs and such. Defaults to XDG cache dir.
+  --help              Show this message and exit.
 ```
